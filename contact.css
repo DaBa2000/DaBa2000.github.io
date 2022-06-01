@@ -1,0 +1,41 @@
+.card-container {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 45%;
+    min-width: 13rem;
+    margin: 10px;
+    height: fit-content;
+    padding: 10px 10px;
+}
+
+.card-body {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 3px;
+}
+
+.card-img {
+    font-size: 2em;
+    width: min-content;
+    margin: 0px 15px;
+}
+
+.card-txt {
+    font-size: 1.5em;
+    width: min-content;
+}
+
+.github {
+    border: 1px solid #D6FF7F;
+}
+
+.mail {
+    border: 1px solid #13E2DA;
+}
